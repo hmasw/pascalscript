@@ -8,6 +8,8 @@ uses
   {$IF DEFINED (MSWINDOWS) OR Defined (UNIX) OR Defined (fpc)} uPSC_dll, uPSR_dll,{$IFEND}
   uPSPreProcessor;
 
+{$WARNINGS OFF}
+
 const
   {alias to @link(ifps3.cdRegister)}
   cdRegister = uPSRuntime.cdRegister;

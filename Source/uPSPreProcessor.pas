@@ -6,7 +6,7 @@ interface
 uses
   Classes, SysUtils, uPSCompiler, uPSUtils;
 
-
+{$WARNINGS OFF}
 
 type
   EPSPreProcessor = class(Exception); //- jgv
