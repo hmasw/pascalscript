@@ -1,3 +1,4 @@
+{$WARNINGS OFF}
 type pTbtString = ^TbtString;
 function PSVariantIFCToTValue(aValue: PPSVariantIFC; var aValues: TArray<TValue>): Boolean;
 var
